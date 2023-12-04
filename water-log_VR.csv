@@ -1,18 +1,25 @@
-Date,Mouse ID,Condition,Weight (g),Water collected (mL)
-2023-11-29,123456,Baseline weight,23.0,
-2023-11-29,123456,Baseline weight,24.0,
-2023-11-29,123456,Baseline weight,26.0,
-2023-11-29,123456,After session,23.0,1.0
-2023-11-29,123456,After session,24.0,2.0
-2023-11-29,123456,After session,21.0,1.0
-2023-11-29,123456,After session,21.0,0.0
-2023-11-29,123456,After session,21.0,0.2
-2023-11-30,123455,After session,21.0,2.0
-2023-11-30,123456,After session,26.0,5.0
-2023-11-30,123456,After session,22.0,1.0
-2023-11-30,123456,After session,26.0,0.4
-2023-11-30,123456,After session,21.0,1.0
-2023-11-30,123456,After session,20.0,0.5
-2023-11-30,123456,After session,21.0,0.2
-2023-11-30,123456,After session,18.0,1.24
-2023-11-30,123456,After session,21.1,0.8
+date,mouse_id,condition,weight,water_collected,suggested_water
+11/28/2023,699899,Baseline weight,26.6,,
+11/29/2023,699899,Baseline weight,26.67,,
+11/30/2023,699899,Baseline weight,27.4,,
+12/1/2023,699899,Baseline weight,29.04,,
+11/28/2023,699895,Baseline weight,30.1,,
+11/29/2023,699895,Baseline weight,30.8,,
+11/30/2023,699895,Baseline weight,31.15,,
+11/28/2023,690165,Baseline weight,28.05,,
+11/29/2023,690165,Baseline weight,28.07,,
+11/30/2023,690165,Baseline weight,27.9,,
+12/1/2023,690165,Baseline weight,27.81,,
+11/28/2023,690164,Baseline weight,31.45,,
+11/29/2023,690164,Baseline weight,31.41,,
+11/30/2023,690164,Baseline weight,32.3,,
+12/1/2023,690164,Baseline weight,30.16,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
