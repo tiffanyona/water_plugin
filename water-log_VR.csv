@@ -14,12 +14,27 @@ date,mouse_id,condition,weight,water_collected,suggested_water
 11/29/2023,690164,Baseline weight,31.41,,
 11/30/2023,690164,Baseline weight,32.3,,
 12/1/2023,690164,Baseline weight,30.16,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
+12/4/2023,699899,After session,21.82,0.0,1.0
+12/4/2023,690165,After session,23.73,0.5,0.5
+12/4/2023,699895,After session,25.79,0.2,0.8
+12/4/2023,690164,After session,26.42,0.0,1.0
+11/28/2023,694569,Baseline weight,25.3,,
+11/29/2023,694569,Baseline weight,25.3,,
+11/30/2023,694569,Baseline weight,25.1,,
+12/1/2023,694569,Baseline weight,25.5,,
+11/28/2023,690167,Baseline weight,28.1,,
+11/29/2023,690167,Baseline weight,28.1,,
+11/30/2023,690167,Baseline weight,28.2,,
+12/1/2023,690167,Baseline weight,28.5,,
+11/28/2023,699894,Baseline weight,32.7,,
+11/29/2023,699894,Baseline weight,32.3,,
+11/30/2023,699894,Baseline weight,32.3,,
+12/1/2023,699894,Baseline weight,32.3,,
+11/28/2023,694573,Baseline weight,33.2,,
+11/29/2023,694573,Baseline weight,33.3,,
+11/30/2023,694573,Baseline weight,33.6,,
+12/1/2023,694573,Baseline weight,33.1,,
+12-04-2023,694569,After session,21.0,0.35,0.65
+12-04-2023,694573,After session,27.4,0.3,0.7
+12-04-2023,699894,After session,27.3,0.05,0.95
+12-04-2023,690167,After session,23.7,0.75,0.25
