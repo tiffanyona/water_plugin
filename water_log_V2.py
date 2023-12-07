@@ -93,7 +93,7 @@ class DataEntryApp:
     def load_dataframe(self):
         try:
             # Try to load the existing dataframe from the CSV file
-            df = pd.read_csv("water-log_VR.csv")
+            df = pd.read_csv("Z:\\scratch\\vr-foraging\\water_log\\water_log_VR.csv")
         except FileNotFoundError:
             # If the file doesn't exist, create an empty dataframe
             df = pd.DataFrame(columns=["date", "mouse_id", "condition", "weight", "water_collected", "suggested_water"])
@@ -101,7 +101,7 @@ class DataEntryApp:
     
     def get_current_date(self):
         now = datetime.now()
-        date_str = now.strftime("%m-%d-%Y")
+        date_str = now.strftime("%m/%d/%Y")
         self.date_var.set(date_str)
         
     def update_water_entry_state(self, event):
@@ -158,6 +158,11 @@ class DataEntryApp:
         # Validate Mouse ID
         if not self.validate_mouse_id():
             messagebox.showerror("Error", "Mouse ID must be a 6-digit number.")
+            return
+        
+        # Validate right unnits for water
+        if not self.validate_water():
+            messagebox.showerror("Error", "Water value is too large, are you sure it's mL?")
             return
 
         # Get Mouse ID and filter dataframe
@@ -254,6 +259,12 @@ class DataEntryApp:
     def validate_mouse_id(self):
         mouse_id = self.mouse_id_var.get()
         if not mouse_id.isdigit() or len(mouse_id) != 6:
+            return False
+        return True
+    
+    def validate_water(self):
+        water = self.water_var.get()
+        if float(water) > 4:
             return False
         return True
     
